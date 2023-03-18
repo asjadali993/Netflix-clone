@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Homepage {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(https://assets.nflxext.com/ffe/siteui/vlv3/5523db5a-e2b2-497f-a88b-61f175c3dbad/eb90437e-a876-47c3-a138-ca27772a4d2a/IN-en-20230306-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+.redColor {
+    background: rgb(249, 5, 17) !important;
+}
+
+.abc {
+    outline: none !important;
+    background: #000 !important;
+}
+
+.redHover:hover {
+    background: rgba(249, 5, 17, 0.819) !important;
+}
+
+.Unlimited {
+    /* margin-top: 100px; */
+    font-size: 300% !important;
+    font-weight: 900 !important;
+}
+
+.logo {
+    width: 150px;
+}
+
+.AnimCard {
+    width: 280px;
+    height: 100px;
+    background: #000;
+
+
+}
+
+@media only screen and (max-width: 500px) {
+    .AnimCard {
+
+        width: 80%;
+        height: 32%;
+    }
+}
+
+.Animation {
+    width: 3rem;
+    height: 3rem;
+    outline: 2px solid rgba(0, 0, 0, 1);
+    outline-offset: -2px;
+    display: block;
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) center center no-repeat;
+    background-size: 100%;
+
+}
+
+.Tv {
+    width: 300px;
+    height: 160px;
+    position: relative;
+    right: 330px;
+    top: 50px;
+    /* z-index: -1; */
+}
+
+.parentdiv {
+    position: relative;
+opacity: 99%;
+}
+
+.videodiv {
+
+    width: 100%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 54%;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+}
+
+.videoimg {
+    position: relative !important;
+    z-index: 1 !important;
+}
+
+.videodiv2 {
+z-index: -1;
+    width: 80%;
+    overflow: hidden;
+    height: 80%;
+    max-width: 73%;
+    max-height: 54%;
+    position: absolute;
+    top: 33%;
+    left: 54%;
+    transform: translate(-50%, -45%);
+}
+
+.saifkhan {
+    width: 90%;
+    height: 86%;
+}
+
+.FAQitems:hover {
+    background-color: #6c757d !important;
+
+}
+
+.padi {
+    padding-bottom: 20% !important;
+}
+
+.Mtop {
+    margin-top: 10%;
+}
+
+.FAQitems::after {
+    background-color: #6c757d !important;
+    border-radius: 30%;
+}
+
+.divider {
+    width: 100%;
+    height: 0.5rem;
+    bottom: -0.5rem;
+    background-color: rgb(35, 35, 35);
+    margin: 50px 0px;
+}
+
+.divider1 {
+    width: 100%;
+    height: 0.5rem;
+    bottom: -0.5rem;
+    background-color: rgb(35, 35, 35);
+    margin: 0px 0px 50px 0px;
+}
+
+/* for footer  */
+.tdnone {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.mstart {
+    margin-left: 11% !important;
+}
